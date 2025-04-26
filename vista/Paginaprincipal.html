@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">    
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Principal</title>
+    <link rel="stylesheet" href="../Css/Paginaprincipal.css">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+</head>
+<body>
+    <header class=" header ">
+        <nav class="nav">
+            <a href="#" class="nav_logo">koutuushi Wapushua </a>
+            <ul class="menuitem">
+                <li class="menuitem"><a href="#" class="nav_link">Inicio</a></li>
+                <li class="menuitem"><a href="#" class="nav_link">Sobre Nosotros</a></li>
+                <li class="menuitem"><a href="#" class="nav_link">Contacto</a></li>
+            </ul>
+            <button class="boton" id="Abrir_boton">Ingresar</button>
+            </nav>
+    </header>
+
+    <section class="home">
+        <div class="Container">
+            <i class="uil uil-times form_close"></i>
+            <div class="Forma">
+                <form action="#">
+                    <h2>Ingresar</h2>
+
+                    <div class="input_box">
+                        <input type=" Usuario" placeholder="Ingrese su usuario" required>
+                        <i class="uil uil-envelope-alt email"></i>
+                    </div>
+                    <div class="input_box">
+                        <input type=" Contraseaña" placeholder="Ingrese su Contraseaña" required>
+                        <i class=" uil uil-lock passsword "></i>
+                        <i class="uil uil-eye-slash pw_hide "></i>
+                    </div>
+                    <button class="buton" id="Entrar_boton">Entrar</button>
+                </form>
+            </div>
+        </div>
+    </section>
+<script src="script.js"></script>
+</body>
+</html>
